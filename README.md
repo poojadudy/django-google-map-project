@@ -10,20 +10,16 @@ Django project that uses Googles APIs to auto populate fields, display maps and 
 
 GOOGLE_API_KEY = ""
 
-RECAPTCHA_PUBLIC_KEY = ""
-
-RECAPTCHA_PRIVATE_KEY = ""
-
 7) python manage.py makemigrations
 8) python manage.py migrate
 9) python manage.py runserver
-10) https://localhost:8000 - Bob's your uncle!! 
+10) https://localhost:8000 
 
 Note: 
 
 Don't forget to activate the following Google API's
 
-reCAPTURE
+
 Places API
 Maps Javascript API
 Directions API
